@@ -15,3 +15,11 @@ const zucchine = [
   { varieta: 'verde', lunghezza: 1, peso: 1 },
   { varieta: 'verde', lunghezza: 1, peso: 1 },
 ]
+
+let totPeso = 0
+
+zucchine.forEach(zucchina => {
+    totPeso += zucchina.peso   
+});
+
+console.log(totPeso)
